@@ -8,6 +8,7 @@ import ConfirmScreen from "../screens/ConfirmScreen/ConfirmScreen";
 import ForgotScreen from "../screens/ForogtPassword_Screen/ForgotScreen";
 import NewPasswordScreen from "../screens/ForogtPassword_Screen/NewPasswordScreen";
 import HomeScreen from "../screens/Home/index";
+import MainMotherScreen from '../screens/Main_Mother_Screen/index';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,7 +16,7 @@ export default function Navigation() {
 
      
     return (
-        <NavigationContainer>
+        <NavigationContainer >
 
             <Stack.Navigator screenOptions={{headerShown:false}}>
 
@@ -26,6 +27,9 @@ export default function Navigation() {
                 <Stack.Screen name="Forgotpassword" component={ForgotScreen}/>
                 <Stack.Screen name="NewPassword" component={NewPasswordScreen}/>
                 <Stack.Screen name="Home" component={HomeScreen}/>
+                <Stack.Screen name="Main_Mother_screen" component={MainMotherScreen}/>
+
+                
 
 
 

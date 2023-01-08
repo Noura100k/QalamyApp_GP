@@ -16,7 +16,7 @@ export default function Signin_screen() {
      function onbuttonPress(){
         //console.warn("sign in")
         //validate user
-        navigation.navigate('Home')
+        navigation.navigate('Main_Mother_screen')
      }
      
      function onForgotPress(){
