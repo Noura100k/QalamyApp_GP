@@ -9,6 +9,7 @@ import ForgotScreen from "../screens/ForogtPassword_Screen/ForgotScreen";
 import NewPasswordScreen from "../screens/ForogtPassword_Screen/NewPasswordScreen";
 import HomeScreen from "../screens/Home/index";
 import MainMotherScreen from '../screens/Main_Mother_Screen/index';
+import AddNewchild from "../screens/Main_Mother_Screen/childRegisteration/Add_new_child";
 
 const Stack = createNativeStackNavigator();
 
@@ -28,6 +29,8 @@ export default function Navigation() {
                 <Stack.Screen name="NewPassword" component={NewPasswordScreen}/>
                 <Stack.Screen name="Home" component={HomeScreen}/>
                 <Stack.Screen name="Main_Mother_screen" component={MainMotherScreen}/>
+                <Stack.Screen name="Add_new_child" component={AddNewchild}/>
+
 
                 
 

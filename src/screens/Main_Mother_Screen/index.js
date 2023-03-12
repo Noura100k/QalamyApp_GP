@@ -15,9 +15,9 @@ import ReportScreen from './RepoertsChildren/ReportScreen';
 export default function ComponentNavBar()
 {
     //Screen names
-const MyProfileName = "My Profile";
-const MychildrenName = "My children";
-const ReportsName = "Report";
+const MyProfileName = "حسابي";
+const MychildrenName = "أطفالي";
+const ReportsName = "التقارير";
 const Tab = createBottomTabNavigator();
 
   return(

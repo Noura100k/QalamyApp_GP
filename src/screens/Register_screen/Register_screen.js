@@ -30,18 +30,18 @@ export default function signin_screen() {
     return (
         <ScrollView>
         <View style={styles.container}>
-        <Text style={styles.title}>Create an account</Text>
-        <Custom_input placeholder="Name" value={name} setValue={setname}/>
-        <Custom_input placeholder="Email" value={username_email} setValue={setusername_email} />
-        <Custom_input placeholder="Password" value={password} setValue={setpassword} secureTextEntry={true} />
-        <Custom_input placeholder="Confirm password" value={confirmpassword} setValue={setconfirmpassword} secureTextEntry={true} />
-        <CustomButton button_text="Register" onPress={onbuttonPress}  />
-        <Text style={styles.text}>By registering, you confirm that you accept our <Text style={styles.link}>Terms of use </Text>and <Text style={styles.link}>Privacy </Text></Text>
+        <Text style={styles.title}>حساب جديد</Text>
+        <Custom_input placeholder="الاسم" value={name} setValue={setname}/>
+        <Custom_input placeholder="الايميل" value={username_email} setValue={setusername_email} />
+        <Custom_input placeholder="كلمة المرور" value={password} setValue={setpassword} secureTextEntry={true} />
+        <Custom_input placeholder="تأكيد كلمة المرور" value={confirmpassword} setValue={setconfirmpassword} secureTextEntry={true} />
+        <CustomButton button_text="تسجيل" onPress={onbuttonPress}  />
+        <Text style={styles.text}>بالتسجيل ، فإنك تؤكد قبولك  <Text style={styles.link}>لشروط الاستخدام </Text>و <Text style={styles.link}>الخصوصية </Text></Text>
          {/*<CustomButton button_text="Sign In with Facebook" onPress={onbuttonPressFacbook} bc="#E7EAF4" fc="#4765A9" />
         <CustomButton button_text="Sign In with Google" onPress={onbuttonPressGoogle}  bc="#FAE9EA" fc="#DD4D44"/>
         <CustomButton button_text="Sign In with Apple" onPress={onbuttonPressApple} bc="#E3E3E3" fc="#363636" />*/}
         <SocialSignInButtons/>
-        <CustomForgot button_text="have an account? Sign In" onPress={onSignin}  />
+        <CustomForgot button_text="لديك حساب؟ نسجيل الدخول؟ " onPress={onSignin}  />
 
 
 

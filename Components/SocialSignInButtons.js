@@ -15,9 +15,9 @@ export default function SocialSignInButtons({value,setValue,placeholder,secureTe
      }
   return(
     < >
-        <CustomButton button_text="Sign In with Facebook" onPress={onbuttonPressFacbook} bc="#E7EAF4" fc="#4765A9" />
-        <CustomButton button_text="Sign In with Google" onPress={onbuttonPressGoogle}  bc="#FAE9EA" fc="#DD4D44"/>
-        <CustomButton button_text="Sign In with Apple" onPress={onbuttonPressApple} bc="#E3E3E3" fc="#363636" />
+        <CustomButton button_text="تسجيل الدخول فيسبوك" onPress={onbuttonPressFacbook} bc="#E7EAF4" fc="#4765A9" />
+        <CustomButton button_text="تسجيل الدخول قوقل" onPress={onbuttonPressGoogle}  bc="#FAE9EA" fc="#DD4D44"/>
+        <CustomButton button_text="تسجيل الدخول ابل" onPress={onbuttonPressApple} bc="#E3E3E3" fc="#363636" />
 
     </>
 

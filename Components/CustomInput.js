@@ -29,5 +29,6 @@ const styles = StyleSheet.create({
     },
     input:{
         padding:10,
+        textAlign: 'right'
     },
 });

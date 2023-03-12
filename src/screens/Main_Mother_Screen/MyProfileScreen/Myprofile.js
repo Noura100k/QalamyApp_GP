@@ -11,15 +11,15 @@ export default function Myprofile({ navigation }) {
          <Image source={{uri:'https://cdn-icons-png.flaticon.com/512/3899/3899618.png'}}
          style={styles.circleImage}/>
          </View>
-            <Text style={styles.textFont}>Name</Text>
-            <Custominput value={'Fatimah salah'}/>
-            <Text style={styles.textFont}>Email</Text>
+            <Text style={styles.textFont}>الاسم</Text>
+            <Custominput value={'فاطمة صالح'}/>
+            <Text style={styles.textFont}>الايميل</Text>
             <Custominput value={'Fatimah@com'}/>
-            <Text style={styles.textFont}>Password</Text>
+            <Text style={styles.textFont}>كلمة المرور</Text>
             <Custominput value={'@jshejd7'}/>
             <View style={{marginTop:30}}>
-                <CustomButton button_text="Logout" bc={'#67A8D0'}/>
-                <CustomButton button_text="Update" bc={'#67A8D0'}/>
+                <CustomButton button_text="تسجيل الخروج" bc={'#67A8D0'}/>
+                <CustomButton button_text="تحديث" bc={'#67A8D0'}/>
             </View>
         </View>
     );
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     
     },
     textFont:{
-        fontSize: 15, fontWeight: '700'
+        fontSize: 15, fontWeight: '700', textAlign: 'right'
       },
       Imagestyle:{
         justifyContent:'center',

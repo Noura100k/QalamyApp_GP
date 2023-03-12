@@ -3,18 +3,13 @@ import {StyleSheet,TouchableOpacity} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
-function onButtonPress(){
-    console.warn("Floating add")
-
- }
-
 export default function AddFloatingComponent({onPress,button_text})
 {
   return(
 
    <TouchableOpacity
    style={styles.floatingAdd}
-   onPress={onButtonPress}
+   onPress={onPress}
    >
     
     <Ionicons name="add-circle"  size={60} color="#FFC917"/>

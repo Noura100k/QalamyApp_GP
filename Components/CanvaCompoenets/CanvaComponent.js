@@ -33,7 +33,7 @@ const style = `.m-signature-pad {box-shadow: none; border: none; }
     <View style={{ width: imgWidth, height: imgHeight , borderColor: "#000000", borderWidth: 0.5}}>
     <SignatureScreen
       ref={ref}
-      overlaySrc="https://i.ibb.co/QdKV7rd"
+      overlaySrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzWiqCTt0MFXE-kAQyti282xJAFWtkX86tUw775uh&s"
       overlayWidth={imgWidth}
       overlayHeight={imgHeight}
       webStyle={style}

@@ -26,10 +26,10 @@ export default function ForgotScreen() {
     return (
         <ScrollView>
         <View style={styles.container}>
-        <Text style={styles.title}>Reset your password</Text>
-        <Custom_input placeholder="Enter Email/Username" value={username_email} setValue={setusername_email}/>
-        <CustomButton button_text="SEND" onPress={onSendPress}  />
-        <CustomForgot button_text="Back to Sign in" onPress={onBack_to_Sign_in_Press}  />
+        <Text style={styles.title}>اعادة تعين كلمة المرور</Text>
+        <Custom_input placeholder="الايميل/اسم المستخدم" value={username_email} setValue={setusername_email}/>
+        <CustomButton button_text="ارسال" onPress={onSendPress}  />
+        <CustomForgot button_text="الرجوع لصفحة تسجيل الدخول" onPress={onBack_to_Sign_in_Press}  />
 
       </View>
       </ScrollView>

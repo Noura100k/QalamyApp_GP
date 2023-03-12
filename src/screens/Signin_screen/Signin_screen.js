@@ -32,15 +32,15 @@ export default function Signin_screen() {
         <ScrollView>
         <View style={styles.container}>
         <Image source={Logo} style={[styles.logo,{height:height*0.2}]} resizeMode="contain"/>
-        <Custom_input placeholder="Username/Email" value={username} setValue={setusername}/>
-        <Custom_input placeholder="Password" value={password} setValue={setpassword} secureTextEntry={true} />
-        <CustomButton button_text="Sign In" onPress={onbuttonPress}  />
-        <CustomForgot button_text="Forgot Password?" onPress={onForgotPress}  />
+        <Custom_input placeholder="اسم المستخدم/الايميل" value={username} setValue={setusername}/>
+        <Custom_input placeholder="كلمة المرور" value={password} setValue={setpassword} secureTextEntry={true} />
+        <CustomButton button_text="تسجيل الدخول" onPress={onbuttonPress}  />
+        <CustomForgot button_text="نسيت كلمة المرور؟" onPress={onForgotPress}  />
        {/* <CustomButton button_text="Sign In with Facebook" onPress={onbuttonPressFacbook} bc="#E7EAF4" fc="#4765A9" />
         <CustomButton button_text="Sign In with Google" onPress={onbuttonPressGoogle}  bc="#FAE9EA" fc="#DD4D44"/>
     <CustomButton button_text="Sign In with Apple" onPress={onbuttonPressApple} bc="#E3E3E3" fc="#363636" />*/}
        <SocialSignInButtons/>
-        <CustomForgot button_text="Don't have an account? create on" onPress={onCreateAccount}  />
+        <CustomForgot button_text="ليس لديك حساب؟ تسجيل جديد" onPress={onCreateAccount}  />
 
 
 

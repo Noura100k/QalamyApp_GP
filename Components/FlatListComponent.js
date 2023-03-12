@@ -10,19 +10,21 @@ export default function FlatListComponent({list})
   renderItem={({item})=>(
  <View style={styles.item}>
 
-  <View style={styles.textStyle}>
-  <Text style={styles.textFont}>Name </Text>
-   <Text style={styles.textFont}>{item.name}  </Text>
-   </View>
+ 
 
    <View style={styles.textStyle}>  
-   <Text style={styles.textFont}>Last date  </Text>  
+   <Text style={styles.textFont}>تاريخ  </Text>  
    <Text style={styles.textFont}>{item.data}  </Text>  
    </View>
 
    <View style={styles.textStyle}>
-   <Text style={styles.textFont}>Grade</Text>
+   <Text style={styles.textFont}>الدرجة</Text>
    <Text style={styles.textFont}>{item.grade}</Text>
+   </View>
+
+   <View style={styles.textStyle}>
+  <Text style={styles.textFont}>الأسم </Text>
+   <Text style={styles.textFont}>{item.name}  </Text>
    </View>
 
    <View  style={styles.Imagestyle}>

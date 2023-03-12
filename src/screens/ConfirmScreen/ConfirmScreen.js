@@ -29,11 +29,11 @@ export default function ConfirmScreen() {
     return (
         <ScrollView>
         <View style={styles.container}>
-        <Text style={styles.title}>Confirm your email</Text>
-        <Custom_input placeholder="Enter your confirmation code" value={Code} setValue={setCode}/>
-        <CustomButton button_text="Confirm" onPress={onConfirmPress}  />
-        <CustomButton button_text="Resend code" onPress={resend_code_button}  bc="#E7EAF4" fc="#3B71F3" />
-        <CustomForgot button_text="Back to SignIn" onPress={onBack_to_Sign_in_Press}  />
+        <Text style={styles.title}>تأكيد البريد الألكتروني</Text>
+        <Custom_input placeholder="ادخل رمز التأكيد" value={Code} setValue={setCode}/>
+        <CustomButton button_text="تأكيد" onPress={onConfirmPress}  />
+        <CustomButton button_text="اعادة ارسال الكود" onPress={resend_code_button}  bc="#E7EAF4" fc="#3B71F3" />
+        <CustomForgot button_text="الرجوع لصفحة تسجيل الدخول" onPress={onBack_to_Sign_in_Press}  />
 
 
 
