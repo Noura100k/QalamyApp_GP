@@ -4,10 +4,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
+
+
 // Screens
 import ProfileScreen from './MyProfileScreen/Myprofile';
 import MychildrenScreen from './MychildrenScreen/Mychildren';
 import ReportScreen from './RepoertsChildren/ReportScreen';
+
 
 
 
@@ -20,9 +23,10 @@ const MychildrenName = "أطفالي";
 const ReportsName = "التقارير";
 const Tab = createBottomTabNavigator();
 
+
   return(
     
-    <NavigationContainer independent={true}>
+    <NavigationContainer >
     <Tab.Navigator
       initialRouteName={MychildrenName}
       screenOptions={({ route }) => ({

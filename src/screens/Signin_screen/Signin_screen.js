@@ -47,6 +47,7 @@ export default function Signin_screen() {
 
       </View>
       </ScrollView>
+      
     );
   }
   const styles = StyleSheet.create({
