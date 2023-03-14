@@ -3,20 +3,26 @@ import { View,StyleSheet,ScrollView} from 'react-native';
 import Card from '../../../../Components/DisplayChildren';
 import AddFloating from '../../../../Components/AddFloatingComponent';
 import { useNavigation } from "@react-navigation/native";
+import { NavigationContainer } from '@react-navigation/native';
+
+
 
 export default function Mychildren() {
   const navigation =useNavigation();
 
+
   function onAddFloatingPress(){
+    
     //console.warn("Floating Add")
-    navigation.navigate('Add_new_child');
+    navigation.navigate("Addchild");
+
 
 
   }
     return (
 
         
-       
+      
        
          <View style={styles.container}>
         <ScrollView>
@@ -36,7 +42,7 @@ export default function Mychildren() {
           <AddFloating onPress={onAddFloatingPress}/>
         </View>  
         
-   
+    
         
        
     );
